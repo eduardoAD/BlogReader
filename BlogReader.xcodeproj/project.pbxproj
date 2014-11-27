@@ -15,6 +15,7 @@
 		E4372F1F19DFB457008F69F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4372F1E19DFB457008F69F6 /* Images.xcassets */; };
 		E4372F2219DFB457008F69F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4372F2019DFB457008F69F6 /* LaunchScreen.xib */; };
 		E4372F2E19DFB457008F69F6 /* BlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4372F2D19DFB457008F69F6 /* BlogReaderTests.m */; };
+		E44380201A27A94B000683B0 /* MyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E443801F1A27A94B000683B0 /* MyStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		E4372F2719DFB457008F69F6 /* BlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4372F2C19DFB457008F69F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4372F2D19DFB457008F69F6 /* BlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderTests.m; sourceTree = "<group>"; };
+		E443801F1A27A94B000683B0 /* MyStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				E4372F1819DFB457008F69F6 /* DetailViewController.h */,
 				E4372F1919DFB457008F69F6 /* DetailViewController.m */,
 				E4372F1B19DFB457008F69F6 /* Main.storyboard */,
+				E443801F1A27A94B000683B0 /* MyStoryboard.storyboard */,
 				E4372F1E19DFB457008F69F6 /* Images.xcassets */,
 				E4372F2019DFB457008F69F6 /* LaunchScreen.xib */,
 				E4372F0E19DFB457008F69F6 /* Supporting Files */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4372F1D19DFB457008F69F6 /* Main.storyboard in Resources */,
+				E44380201A27A94B000683B0 /* MyStoryboard.storyboard in Resources */,
 				E4372F2219DFB457008F69F6 /* LaunchScreen.xib in Resources */,
 				E4372F1F19DFB457008F69F6 /* Images.xcassets in Resources */,
 			);
@@ -418,6 +422,7 @@
 				E4372F3319DFB457008F69F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4372F3419DFB457008F69F6 /* Build configuration list for PBXNativeTarget "BlogReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				E4372F3619DFB457008F69F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

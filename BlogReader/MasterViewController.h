@@ -10,6 +10,9 @@
 
 @interface MasterViewController : UITableViewController
 
+@property (strong,nonatomic) NSArray *titlesArray;
+
+-(IBAction)goDetail;
 
 @end
 

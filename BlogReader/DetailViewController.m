@@ -14,6 +14,12 @@
 
 @implementation DetailViewController
 
+-(IBAction)goMaster{
+    [self dismissViewControllerAnimated:YES completion:^{
+
+    }];
+}
+
 #pragma mark - Managing the detail item
 
 - (void)setDetailItem:(id)newDetailItem {
